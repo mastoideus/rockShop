@@ -1,0 +1,31 @@
+.Icons {
+    display: flex;
+    width: 20%;
+    top: 280px;
+     position: absolute;
+     left: 40% ;
+     justify-content: space-between;
+     cursor: pointer;
+     color: rgb(111, 2, 2);
+     font-size: 28px;
+     transition: all 0.4s;
+
+    
+
+
+}
+
+.IconsIcons:hover {
+    color: rgb(222, 46, 46);
+    font-size: 29px;
+}
+
+
+@media (max-width:600px){
+    .Icons {
+        position: unset;
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

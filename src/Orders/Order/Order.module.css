@@ -1,0 +1,52 @@
+.Order {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px;
+    border:1px solid #eee;
+    box-shadow: 0px 3px 4px #ccc;
+    height: 200px;
+    background-color: white;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.Img {
+    width: 150px;
+    margin: 10px;
+}
+
+.Content {
+    margin-left: 40px;
+}
+.Btn {
+    padding: 8px 12px;
+    background-color:white;
+    border: 2px solid darkred;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 195px;
+    margin-top: 30px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    cursor: pointer
+}
+
+@media (max-width:600px){
+    .Order {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 250px;
+    }
+    .Btn {
+        margin-left: 0px;
+    }
+    .Img {
+        object-fit: contain;
+    }
+}
+
+.Btn:hover {
+    background-color: rgb(208, 118, 118);
+}

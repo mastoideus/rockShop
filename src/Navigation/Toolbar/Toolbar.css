@@ -1,0 +1,26 @@
+.Toolbar {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+    height: 61px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+   
+}
+
+
+.Title {
+    padding-left: 250px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: rgb(143, 58, 58);
+
+}
+

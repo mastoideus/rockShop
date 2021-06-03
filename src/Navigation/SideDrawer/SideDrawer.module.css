@@ -1,0 +1,46 @@
+.SideDrawer {
+    width: 280px;
+    background-color: white;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    height: 100%;
+    transition: transform 0.5s;
+    border-right: 2px solid #eee;
+    box-shadow: 0 5px 6px 2px #eee;
+    padding: 30px;
+    color: black;
+  
+   
+    
+}
+
+.Items {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.ItemsList {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Items a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(143, 58, 58);
+    font-weight: 700;
+    
+}
+
+.Items a:hover,
+.Items a.active {
+    color:rgb(79, 4, 4);
+
+}
+

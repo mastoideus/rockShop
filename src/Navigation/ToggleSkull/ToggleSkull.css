@@ -1,0 +1,13 @@
+.ToggleSkull {
+    height: 80%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    display: inline-block;
+}
+
+
+@media (min-width: 600px) {
+    .ToggleSkull {
+        display: none;
+    }
+}

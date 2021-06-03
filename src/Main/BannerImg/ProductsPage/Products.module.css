@@ -1,0 +1,26 @@
+.Products {
+    width: 80%;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    
+
+
+}
+
+.Izbornik {
+    display: flex;
+}
+
+
+.Linija {
+    height: 2px ;
+    width: 80%;
+    background-color: rgb(99, 3, 3);
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

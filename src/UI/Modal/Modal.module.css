@@ -1,0 +1,24 @@
+.Modal {
+    position: fixed;
+    top: 170px;
+    width: 30%;
+    left: 35%;
+    height: 380px;
+    background-color: rgb(237, 232, 232);
+    z-index: 400;
+    border: 2px solid #cccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: all 0.4s ease-out;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+@media(max-width:600px){
+    .Modal {
+        width: 80%;
+        left: 10%;
+    }
+}

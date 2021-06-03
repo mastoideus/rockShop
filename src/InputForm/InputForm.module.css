@@ -1,0 +1,26 @@
+.InputForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.Btn {
+    width: 80%;
+    color:white;
+    background-color: indianred;
+    margin: auto;
+    outline: none;
+    border: 1px solid rgb(216, 61, 61);
+    padding: 6px 4px;
+    font-size: 15px;
+    cursor:pointer;
+    margin-top: 40px;
+    transition: all 0.3s;
+}
+.Btn:hover {
+    background-color: rgb(99, 5, 5);
+}
+
+.Title {
+    margin-bottom: 30px;
+    color: rgb(255, 119, 0);
+}

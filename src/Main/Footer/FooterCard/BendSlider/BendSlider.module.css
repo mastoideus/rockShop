@@ -1,0 +1,9 @@
+.BendSlider {
+    display: flex;
+    flex-direction: row;
+   width: 40%;
+   margin: auto;
+   align-items: center;
+   
+}
+

@@ -1,0 +1,11 @@
+.Label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.Inp {
+    padding: 3px 4px;
+    width: 80%;
+}

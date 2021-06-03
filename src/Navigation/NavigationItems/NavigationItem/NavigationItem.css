@@ -1,0 +1,14 @@
+.NavigationItem a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: whitesmoke;
+    height: 100%;
+    font-weight:500;
+    font-size: 16px;
+}
+
+
+.NavigationItem a:hover,
+.NavigationItem a.active {
+    color: teal;
+}

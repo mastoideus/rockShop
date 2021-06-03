@@ -1,0 +1,37 @@
+
+.Background {
+    width: 100%;
+    height: 300px;
+     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.3));
+     background-color: rgb(74, 2, 2);
+     margin-top: 61px;
+     text-align: center;
+     margin-bottom: -15px;
+    
+}
+
+
+
+
+.BannerImg {
+    width: 20%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    z-index: -1;
+   
+   
+    
+    
+}
+
+.Title1 {
+ font-size:60px;
+ color:white;
+ font-family: 'Stick', sans-serif;
+}
+
+
+
+
